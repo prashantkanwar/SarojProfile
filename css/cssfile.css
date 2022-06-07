@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{
+	background-image: url("photo/saroj.jpg ");
+	background-color: red;
+}
+ .image {
+	width: 300px;
+	height: 150px;
+
+}
+h1{
+	
+	text-align: center;
+	color: blue;
+	font-size: 300%;
+}
+
+h2{
+	text-align: center;
+	color: green;
+	font-size: 250%;
+}
+h3{
+	text-align: center;
+	color: gray;
+	font-size: 250%;
+}
+h5 {
+	text-align: center;
+	font-size:500%;
+	 
+}
+
+p{
+	 background-color: skyblue;
+	text-align: left;
+	color: black;
+	font-size: 200%;
+	border: 2px solid powderblue;
+  padding: 30px;
+
+}
+
+</style>
+<body>
+<h5>エベレストグループ</h5>
+</body>
+</head>
+
+
+</html>
+

@@ -1,0 +1,185 @@
+
+
+*{
+  box-sizing: border-box;
+  margin:0;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin:0;
+}
+
+
+h1 {
+	text-align: center;
+}
+
+header {
+  background-color: pink;
+  padding: 10px;
+  font-size: 25px;
+  color: white;
+  height: 110px;
+}
+
+.side1 {
+   
+	float: left;
+	width:200px;
+	MARGIN: 0 AUTO;
+}
+
+
+.wrapper{
+	float: center;
+	WIDTH:800PX;
+	MARGIN: 0 AUTO;
+
+} 
+.side2{
+	float: right;
+	width: 200px;
+	
+}
+
+
+main{
+
+	background-color: skyblue;
+}
+
+artical {
+	width:800px;
+	float: center;
+  padding: 20px;
+	display: inline-block;
+}
+
+.LEFT-CONTENT {
+  padding: 20px;
+  margin-left: 30px;
+  margin-right: 30px;
+  display: inline-block;
+  background-color: #f1f1f1;
+
+}
+
+.rec{
+	text-align: center;
+   padding: 30px;
+	text-shadow: 0px 0px 35px yellow,0px 0px 35px yellow,
+                 0px 0px 35px yellow,0px 0px 35px yellow;
+	
+}
+
+.pic {
+  bottom: 0;
+  background-color: orange;
+  overflow: hidden;
+  height: 100%;
+  transition: .5s ease;
+	float: right;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 50px;
+	width: 28%;
+	padding: 8px ;  
+}
+
+.pic:hover {
+  width: 20%;
+}
+
+.tex{
+	bottom: :139px;
+  text-shadow: 0px 0px 35px red,0px 0px 35px red,
+                 0px 0px 35px red,0px 0px 35px red;
+ text-align:center;
+  color: white;
+  font-size: 40px;
+  padding: 8px 12px;
+   position: relative;
+   margin-bottom:  20px;
+
+ 
+ }
+
+
+ .tex a:hover{
+
+  text-decoration: none;
+  text-shadow: 0px 0px 35px green,0px 0px 35px green,
+                 0px 0px 35px green,0px 0px 35px green;
+ }
+.packagepic{
+  float: left;
+  width:500px;
+  padding: 20px;
+
+}
+ .package{
+  width: 300px;
+  margin-top: 30px;
+  float: right;
+  margin-left: 100px;
+
+  margin-top: -300px;
+}
+.money{
+  content: "\0024";
+
+}
+
+footer {
+  width: 100%;
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  display:  inline-block;
+}
+.fmain{
+  float: left;
+  width:400px;
+  margin-top: 40px;
+}
+.fside1{
+  float: left;
+  width: 200px;
+ 
+}
+.fside2{
+width: 400;
+float: left;
+margin-left: 150px;
+}
+.fs{
+  float: left;
+  width: 200px;
+  
+}
+.fa {  
+  padding: 40px;  
+  font-size: 100px;  
+  width: 90px;  
+  text-align: center;  
+  text-decoration: none;
+}
+  /* Add a hover effect if you want */
+.fa:hover {  
+  opacity: 0.7;
+}
+/* Set a specific color for each brand *//* Facebook */
+.fa-facebook {  
+  background: #3B5998;  
+  color: blue;
+}
+
+/* Twitter */
+.fa-twitter {  
+  background: #55ACEE;  
+  color: white;
+} 
+
+
+
